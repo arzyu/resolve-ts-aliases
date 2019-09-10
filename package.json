@@ -1,0 +1,24 @@
+{
+  "name": "resolve-ts-aliases",
+  "version": "1.0.0",
+  "description": "Resolve aliases for integrating webpack and typescript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepare": "npm run build",
+    "release": "npm publish --access public"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "typescript": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arzyu/resolve-ts-aliases"
+  },
+  "license": "MIT"
+}
