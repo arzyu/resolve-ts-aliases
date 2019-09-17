@@ -27,9 +27,9 @@ npm add -D resolve-ts-aliases
 `webpack.config.ts`:
 
 ```ts
-import * as path from "path";
-import * as webpack from "webpack";
-import { resolveTsAliases } from "webpack-ts-utils";
+import path from "path";
+import webpack from "webpack";
+import { resolveTsAliases } from "resolve-ts-aliases";
 
 const config: webpack.Configuration = {
   resolve: {
