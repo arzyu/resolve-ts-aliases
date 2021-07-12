@@ -44,3 +44,7 @@ const config: webpack.Configuration = {
 
 export default config;
 ```
+
+## Recommendation
+
+For **webpack users**, you could try another package I developed, [airpack](https://github.com/arzyu/airpack), which can help you share webpack configuration in multiple projects more easily.
