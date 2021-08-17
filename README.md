@@ -5,7 +5,7 @@ Resolve aliases for integrating webpack and typescript.
 ## Install
 
 ```bash
-npm add -D resolve-ts-aliases
+npm install -D resolve-ts-aliases
 ```
 
 ## Usage
